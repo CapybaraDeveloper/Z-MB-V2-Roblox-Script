@@ -40,6 +40,13 @@ MainTab:AddButton({
 	end    
 })
 
+MainTab:AddButton({
+	Name = "JailBreak",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/zyn789/Aoi-Script/main/Jailbreak"))()
+	end    
+})
+
 
 local SecondTab = Window:MakeTab({
 	Name = "Script Tools",
