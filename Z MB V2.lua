@@ -65,6 +65,4 @@ SecondTab:AddButton({
 	end    
 })
 
-SecondTab:AddParagraph("1","Main scripts")
-
 SecondTab:AddLabel("Discord '.gg/PCAAmXE2DY' ")
