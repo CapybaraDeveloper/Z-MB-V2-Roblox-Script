@@ -54,6 +54,13 @@ MainTab:AddButton({
   	end    
 })
 
+MainTab:AddButton({
+	Name = "Invisible",
+	Callback = function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/3Rnd9rHf'))()
+	end    
+})
+
 local SecondTab = Window:MakeTab({
 	Name = "Script Tools",
 	Icon = "rbxassetid://4483345998",
