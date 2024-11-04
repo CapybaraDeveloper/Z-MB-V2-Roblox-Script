@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "Z MB Version 2.0", HidePremium = false, SaveConfig = true, ConfigFolder = "Z MB 2.0"})
 
@@ -47,6 +47,12 @@ MainTab:AddButton({
 	end    
 })
 
+MainTab:AddButton({
+	Name = "Rivals Script!",
+	Callback = function()
+      		local scriptURL = 'https://raw.githubusercontent.com/Sheeshablee73/Scriptss/main/RivalsUPD2.lua' local response = game:HttpGet(scriptURL) local executeScript = loadstring(response) executeScript()
+  	end    
+})
 
 local SecondTab = Window:MakeTab({
 	Name = "Script Tools",
